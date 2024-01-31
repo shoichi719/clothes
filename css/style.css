@@ -4,6 +4,37 @@ body{
   font-size: 16px;
   line-height: 150%;
 }
+a{
+  transition: .5s;
+}
 :root{
   --ja:'Noto Sans JP', sans-serif;
+  --myOrange:#ff9D00;
+}
+/* menu */
+.menu ul{
+  display: flex;
+}
+.menu li{
+  padding:  0 40px;
+}
+/* header */
+header .menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10000;
+  height: 80px;
+  border-color: rgba(0,0,0,0,.8);f
+}
+header.menu ul{
+  height: 80px;
+  align-items: center;
+}
+header.menu li:not(:last0of-type){
+  border-right:solid 1px #fff ;
+}
+header.menu a{
+  color: #fff;
+  font-size: 20px;
 }
