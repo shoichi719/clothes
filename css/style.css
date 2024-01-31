@@ -20,7 +20,7 @@ a{
   margin: 0 auto;
 }
 /* sec space */
-.products{
+.products, .about{
   padding:80px 0;
 }
 /* title */
@@ -61,7 +61,7 @@ header .menu{
   right: 0;
   z-index: 10000;
   height: 80px;
-  border-color: rgba(0,0,0,.8);f
+  background-color: rgba(0,0,0,.8);
 }
 header.menu ul{
   height: 80px;
@@ -92,3 +92,34 @@ header.menu a{
   width: 100%;
   height: auto;
 }
+/* .products */
+.products ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+}
+.products li{
+  width: 25%;
+  padding: 0 1%;
+}
+.products li p{
+  padding-top: 20px;
+  text-align: center;
+}
+/* about */
+.about{
+  background-image:  url(../img/about.jpg);
+}
+.about h3{
+  text-align: center;
+  font-size: 24px;
+}
+.about p{
+  font-size: 24px;
+  padding: 40px 0;
+  line-height: 133%;
+  width: 700px;
+  margin:  0 auto;
+}
+
