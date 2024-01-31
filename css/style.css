@@ -4,12 +4,42 @@ body{
   font-size: 16px;
   line-height: 150%;
 }
+img{
+  max-width: 100%;
+}
 a{
   transition: .5s;
 }
 :root{
   --ja:'Noto Sans JP', sans-serif;
   --myOrange:#ff9D00;
+}
+.container{
+  max-width: 1188px;
+  padding: 0 4%;
+  margin: 0 auto;
+}
+/* sec space */
+.products{
+  padding:80px 0;
+}
+/* title */
+.title{
+  font-size: 30px;
+  padding-bottom: 25px;
+  margin-bottom: 60px;
+  text-align: center;
+  position: relative;
+}
+.title::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80px;
+  height: 2px;
+  background-color: var(--myOrange);
 }
 /* menu */
 .menu ul{
@@ -18,6 +48,12 @@ a{
 .menu li{
   padding:  0 40px;
 }
+.menu a{
+  font-size: 20px;
+}
+.menu a:hover{
+  color: var(--myOrange);
+}
 /* header */
 header .menu{
   position: fixed;
@@ -25,7 +61,7 @@ header .menu{
   right: 0;
   z-index: 10000;
   height: 80px;
-  border-color: rgba(0,0,0,0,.8);f
+  border-color: rgba(0,0,0,.8);f
 }
 header.menu ul{
   height: 80px;
@@ -36,5 +72,23 @@ header.menu li:not(:last0of-type){
 }
 header.menu a{
   color: #fff;
-  font-size: 20px;
+}
+/* kvs */
+.kv{
+  position: absolute;
+}
+.kv h1{
+  position: relative;
+  top: 145px;
+  left: 10px;
+  color: #fff;
+  font-size: 80px;
+  font-weight: 500;
+  z-index: 100;
+  text-shadow: 5px 5px 10px rgba(0,0,0,.3);
+}
+.my-swiper img{
+  max-width: none;
+  width: 100%;
+  height: auto;
 }
