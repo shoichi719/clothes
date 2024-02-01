@@ -319,4 +319,38 @@ footer span{
     .products li{
       width: 100%;
     }
+    /* about */
+    .about{
+      background-image:  url(../sp/about.jpg);
+    }
+    .about p{
+      width: 100%;
+      font-size: 16px;
+    }
+    /* shop */
+    .shop iframe{
+      height: 307px;
+    }
+    .shop p{
+      padding-top: 20px;
+      font-size: 16px;
+    }
+    /* contact */
+    .contact{
+      background-image: url(../sp/contact.jpg);
+      margin-bottom: 40px;
+    }
+    .contact p{
+      font-size: 20px;
+    }
+    .contact p:first-of-type{
+      padding-bottom: 20px;
+    }
+    /* footer */
+    footer .menu ul{
+      gap: 20px 0;
+    }
+    footer .menu li{
+      border-right: transparent;
+    }
 }
