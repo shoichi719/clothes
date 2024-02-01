@@ -247,6 +247,14 @@ footer span{
     margin:  0 auto;
     position: absolute;
   }
+  /* spacer */
+  .products, .about, .shop, .contact{
+    padding: 60px 0;
+  }
+  /* title */
+  .title{
+    margin-bottom: 40px;
+  }
   .h-btn div span{
     position: absolute;
     width: 100%;
@@ -276,7 +284,9 @@ footer span{
     flex-wrap: wrap;
   }
   .menu li{
-
+    padding: 0;
+    width: 100%;
+    text-align: center;
   }
   header .menu{
     top: 50px;
@@ -295,5 +305,18 @@ footer span{
     }
     header .menu.active{
       transform: translateX(0);
+    }
+    /* kv */
+    .kv h1{
+      top: 66px;
+      left: 4%;
+      font-size: 40px;
+    }
+    /* product*/
+    .products ul{
+      gap: 40px 0;
+    }
+    .products li{
+      width: 100%;
     }
 }
