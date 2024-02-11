@@ -230,10 +230,10 @@ footer span {
 }
 @media screen and (max-width: 750px) {
   .pc {
-    display: block;
+    display: none;
   }
   .sp {
-    display: none;
+    display: block;
   }
   .products,
   .about,
