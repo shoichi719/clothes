@@ -161,12 +161,13 @@ header .menu a {
   height: 100%;
   background-color: var(--myOrange);
   z-index: -1;
-  transform: scale(0.1);
-  transform-origin: left top;
-  transition: .5s;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .5s;
 }
 .btn:hover::before {
-  transform: scale(1,1);
+  transform: scale(1, 1);
+  transform-origin: left top;
 }
 .btn::after {
   content: '>';
